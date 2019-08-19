@@ -40,6 +40,40 @@
 
     <main role="main" class="container">
 
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="https://upload.wikimedia.org/wikipedia/en/thumb/2/29/Count_von_Count_kneeling.png/200px-Count_von_Count_kneeling.png" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://cnet4.cbsistatic.com/img/SernYbT3H7lh1J6FWEBZd3ancK8=/970x0/2014/12/01/9bcaf58e-5f17-46b9-82a1-546898aad693/count.jpg" alt="Second slide">
+          </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div id=myModal class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Modal body text goes here.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
       <div class="starter-template">
         <h1>Bootstrap starter template</h1>
         <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
@@ -58,6 +92,16 @@
         </div>
       </div>
 
+      <!-- columns exercise-->
+      <div class="row">
+        <div class="col-sm">
+          This is my first column
+        </div>
+        <div class="col-sm">
+          This is my second column
+        </div>
+      </div>
+
     </main><!-- /.container -->
 
     <!-- Bootstrap core JavaScript
@@ -67,5 +111,6 @@
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
     <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
+
   </body>
 </html>

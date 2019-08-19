@@ -5,3 +5,12 @@ body {
   padding: 3rem 1.5rem;
   text-align: center;
 }
+
+.carousel-inner  {
+  width:500px;
+  height:300px;
+}
+
+main {
+  background-color: #adbace;
+}
